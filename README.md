@@ -1,6 +1,6 @@
 # ⚡ PowerBoard v1
 
-## Modular BLDC Motor Test Bench for Laboratory Education  
+## Modular BLDC Motor Test Bench – Power Electronics Platform  
 **Diploma Thesis – HTL Anichstraße**  
 Department of Electrical Engineering & Mechatronics  
 Class 5AHET (2025/26)
@@ -10,51 +10,57 @@ Class 5AHET (2025/26)
 ## ⚠️ Important Notice
 
 This hardware revision contains known design errors.  
+It is archived for documentation purposes only.
+
 👉 Please use **PowerBoard v2** instead:  
 https://github.com/simonhausberger/PowerBoard2
 
 ---
 
+## 📂 Repository Scope
+
+This repository contains **only the electronics development files** of PowerBoard v1, including:
+
+- Schematic design  
+- PCB layout  
+- 3D PCB model (Fusion)  
+
+It does **not** include:
+- Mechanical CAD files of the test bench  
+- Complete system documentation  
+- Control firmware source code  
+
+The motor control software is maintained in a separate repository (see below).
+
+---
+
 ## 📘 Project Overview
 
-At the energy laboratory of HTL Anichstraße, Department of Electrical Engineering and Mechatronics, there is currently no dedicated platform for the practical investigation of low-power BLDC motors.
+PowerBoard v1 represents the first hardware revision of a modular motor test bench developed for laboratory education at HTL Anichstraße.
 
-The goal of this diploma thesis is the development of a **modular motor test bench for laboratory applications**, capable of realistically representing the operating behavior of a permanent magnet synchronous machine (PMSM) or BLDC motor.
-
-The project is divided into three main areas:
+The overall diploma project is structured into three main domains:
 
 - 💻 Software development  
 - ⚡ Power and control electronics  
 - 🏗 Mechanical test bench design  
 
+This repository covers the **power and control electronics** domain only.
+
+The system is designed for the practical investigation of low-power permanent magnet synchronous machines (PMSM) and BLDC motors under realistic operating conditions.
+
 ---
 
 ## ⚙️ System Concept
 
-The motor control system is developed entirely from scratch and supports multiple control strategies:
+The motor control system supports multiple control strategies:
 
 - Block commutation  
 - Field-Oriented Control (FOC)  
 - Sensorless control methods  
 
-Motor loading is achieved using a mechanically coupled DC machine operating in generator mode.
+Motor loading is achieved via a mechanically coupled DC machine operating in generator mode.
 
-The test bench is designed modularly, allowing future integration of other machine types such as:
-
-- Induction machines  
-- Synchronous machines  
-
-instead of the BLDC motor.
-
----
-
-## 📊 Measurement & Data Processing
-
-Operating and measurement data are captured via sensors, processed by a microcontroller, and transmitted to a PC for visualization and analysis.
-
-Both hardware and software are fully self-developed to enable a deep understanding of modern electric drive systems.
-
-The final result is a sustainable extension of the laboratory infrastructure.
+The modular design allows future integration of additional machine types such as induction or synchronous machines.
 
 ---
 
@@ -91,12 +97,11 @@ Developed in cooperation with
 
 ## 🎓 Educational Purpose
 
-This project serves as an educational platform for:
+PowerBoard v1 serves as an early development stage of the laboratory platform for:
 
 - Power electronics  
 - Gate driver design  
 - Microcontroller-based motor control  
-- Control engineering  
 - Measurement and data acquisition  
 
 ---

@@ -1,4 +1,6 @@
 # PowerBoard1
-Diplomarbeit: BLDC-Prüfstand für den Laborunterricht, Leistungs- & Steuerelektronik, PowerBoard v1
+# Diplomarbeit: BLDC-Prüfstand für den Laborunterricht, Leistungs- & Steuerelektronik, PowerBoard v1
 
-(in dieser Version sind Konstruktionsfehler, bitte PowerBoard v2 ansehen!)
+Fusion files: https://github.com/simonhausberger/PowerBoard1/releases/tag/PowerBoardv1
+
+in this version are errors, please use PowerBoard v2 instead: https://github.com/simonhausberger/PowerBoard2

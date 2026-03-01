@@ -4,7 +4,12 @@
 
 in this version are errors, please use PowerBoard v2 instead: https://github.com/simonhausberger/PowerBoard2
 
-Fusion files: https://github.com/simonhausberger/PowerBoard1/releases/tag/PowerBoardv1
-Software written by Matthias Kleinlercher: https://github.com/MatthiasKleinlercher
+## Downloads
+
+- **Fusion Files:**  
+  https://github.com/simonhausberger/PowerBoard1/releases/tag/PowerBoardv1
+
+- **Software (Matthias Kleinlercher):**  
+  https://github.com/MatthiasKleinlercher
 
 in cooperation with Infineon Technologies AG

@@ -105,3 +105,4 @@ PowerBoard v1 serves as an early development stage of the laboratory platform fo
 - Measurement and data acquisition  
 
 ---
+This README was written by ChatGPT from OpenAI
